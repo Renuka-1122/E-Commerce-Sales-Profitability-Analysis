@@ -21,7 +21,7 @@
 
 ## Project Overview
 
-Developed an interactive E-Commerce Sales & Profitability Analysis solution using Microsoft Power BI to analyze retail sales performance, profitability, customer segments, product performance, regional trends, and seasonal demand patterns.
+Developed an interactive E-Commerce Sales & Profitability Analysis solution using Microsoft Power BI to analyze retail sales performance, profitability, product performance, customer segments, regional trends, and seasonal demand patterns.
 
 The project transforms raw transactional sales data into actionable business insights using Power Query, DAX, data modeling, and interactive data visualizations.
 
@@ -61,7 +61,7 @@ This project provides an interactive business intelligence solution to analyze s
 
 ## Dataset
 
-The project uses the **Sample Superstore** retail transactional dataset containing business attributes such as:
+The project uses the Sample Superstore transactional dataset containing business attributes such as:
 
 - Order Date
 - Sales
@@ -233,11 +233,11 @@ The analysis generated the following key business insights:
 
 ### Sales Trend & Seasonality Analysis
 
-[View Sales Trend & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
+[View Sales Trend & Seasonality Analysis](./Sales%20Trend%20%26%20Seasonality%20Analysis.png)
 
-![Sales Trend & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
+![Sales Trend & Seasonality Analysis](./Sales%20Trend%20%26%20Seasonality%20Analysis.png)
 
-This dashboard focuses on overall sales performance, revenue trends, profitability, and seasonal demand patterns.
+This dashboard provides an overview of sales performance, revenue trends, profitability, and seasonal demand patterns.
 
 ---
 
@@ -247,7 +247,7 @@ This dashboard focuses on overall sales performance, revenue trends, profitabili
 
 ![Seasonality Analysis](./Seasonality%20Analysis.png)
 
-This analysis evaluates monthly and quarterly sales patterns to identify seasonal demand fluctuations.
+This analysis focuses on monthly and quarterly sales patterns to identify seasonal demand fluctuations.
 
 ---
 
@@ -257,7 +257,7 @@ This analysis evaluates monthly and quarterly sales patterns to identify seasona
 
 ![Product Analysis](./Product%20Analysis.png)
 
-This dashboard provides product, category, and profitability analysis to identify high-performing and underperforming products.
+This analysis evaluates product and category-level sales and profitability performance to identify high-performing and underperforming products.
 
 ---
 
@@ -271,11 +271,9 @@ The original transactional dataset used for data cleaning, transformation, model
 
 ### Dashboard Screenshots
 
-[Sales Trend & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
-
-[Seasonality Analysis](./Seasonality%20Analysis.png)
-
-[Product Analysis](./Product%20Analysis.png)
+- [Sales Trend & Seasonality Analysis](./Sales%20Trend%20%26%20Seasonality%20Analysis.png)
+- [Seasonality Analysis](./Seasonality%20Analysis.png)
+- [Product Analysis](./Product%20Analysis.png)
 
 ---
 
