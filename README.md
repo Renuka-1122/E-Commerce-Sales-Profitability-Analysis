@@ -1,4 +1,4 @@
-# E-Commerce Sales Trend & Seasonality Analysis | Power BI
+# E-Commerce Sales & Profitability Analysis | Power BI
 
 ## Table of Contents
 
@@ -21,28 +21,28 @@
 
 ## Project Overview
 
-Developed an interactive E-Commerce Sales Trend & Seasonality Analysis dashboard using Microsoft Power BI to analyze retail sales performance, revenue growth, profitability, customer segments, regional performance, and seasonal demand patterns.
+Developed an interactive E-Commerce Sales & Profitability Analysis solution using Microsoft Power BI to analyze retail sales performance, profitability, customer segments, product performance, regional trends, and seasonal demand patterns.
 
-The project transforms raw transactional sales data into actionable business insights using Power Query, DAX, data modeling, interactive visualizations, and dynamic filtering.
+The project transforms raw transactional sales data into actionable business insights using Power Query, DAX, data modeling, and interactive data visualizations.
 
-The dashboard enables stakeholders to monitor business performance, identify seasonal trends, evaluate product and category performance, and support data-driven decision-making.
+The dashboard enables stakeholders to monitor key business KPIs, identify sales trends, evaluate profitability, understand seasonal demand, and support data-driven decision-making.
 
 ---
 
 ## Business Problem
 
-The business had limited centralized reporting and visibility into key sales and profitability metrics across products, categories, customer segments, and regions.
+The business had limited centralized reporting and visibility into important sales and profitability metrics across products, categories, customer segments, and regions.
 
 The lack of interactive reporting made it difficult to:
 
 - Monitor revenue and profit performance.
 - Identify seasonal sales patterns.
 - Track year-over-year growth.
-- Evaluate category-level profitability.
-- Understand the impact of discounts on margins.
+- Evaluate category and product performance.
+- Understand the impact of discounts on profitability.
 - Compare regional and customer segment performance.
 
-This project provides an interactive business intelligence solution for analyzing sales performance and identifying growth opportunities.
+This project provides an interactive business intelligence solution to analyze sales performance and identify opportunities for business growth.
 
 ---
 
@@ -51,31 +51,34 @@ This project provides an interactive business intelligence solution for analyzin
 - Monitor overall sales and profitability performance.
 - Analyze monthly and quarterly sales trends.
 - Identify seasonal demand patterns.
-- Evaluate category-level sales and profitability.
-- Analyze the impact of discounts on profit margins.
+- Evaluate category and product-level performance.
+- Analyze the relationship between discounts and profit margins.
 - Compare regional and customer segment performance.
-- Track year-over-year revenue growth.
+- Track year-over-year sales growth.
 - Support data-driven business decisions through interactive reporting.
 
 ---
 
 ## Dataset
 
-The project uses retail transactional sales data containing business attributes such as:
+The project uses the **Sample Superstore** retail transactional dataset containing business attributes such as:
 
+- Order Date
 - Sales
 - Profit
 - Discount
+- Quantity
 - Category
 - Sub-Category
+- Product Name
 - Customer Segment
 - Region
-- Order Date
-- Product
-- Quantity
+- State
+- City
 - Order ID
+- Customer ID
 
-The dataset was prepared and transformed to support time-based, profitability, category, customer, and regional analysis.
+The dataset was cleaned and transformed to support sales, profitability, product, customer, regional, trend, and seasonality analysis.
 
 ---
 
@@ -90,27 +93,27 @@ The dashboard tracks the following key performance indicators:
 - Total Orders
 - Year-over-Year (YoY) Growth
 
-These KPIs provide a high-level overview of business performance and enable stakeholders to monitor changes in revenue, profitability, and customer order behavior.
+These KPIs provide a high-level view of business performance and help stakeholders monitor revenue, profitability, customer order behavior, and growth.
 
 ---
 
 ## Dashboard Analysis
 
-The dashboard provides interactive analysis across multiple business dimensions.
+The dashboard provides analysis across multiple business dimensions.
 
 ### Sales Trend Analysis
 
 - Monthly sales trends
-- Quarterly revenue performance
+- Quarterly sales performance
 - Year-over-Year growth
 - Seasonal sales patterns
 
-### Product & Category Analysis
+### Product Analysis
 
-- Category-level sales performance
-- Category-level profitability
-- Product performance
-- Profit margin comparison
+- Product-level sales performance
+- Product profitability
+- Category performance
+- Sub-category performance
 
 ### Customer Analysis
 
@@ -124,17 +127,18 @@ The dashboard provides interactive analysis across multiple business dimensions.
 - Regional profitability
 - Geographic performance comparison
 
-### Discount & Profitability Analysis
+### Profitability Analysis
 
-- Discount percentage analysis
-- Relationship between discounts and profit margins
-- Identification of categories affected by higher discounting
+- Profit by category
+- Profit margin analysis
+- Discount impact on profitability
+- Identification of low-margin areas
 
 ---
 
 ## Interactive Filters
 
-The dashboard includes interactive slicers and filters to enable dynamic analysis across:
+The dashboard includes interactive slicers and filters for dynamic analysis across:
 
 - Year
 - Quarter
@@ -144,7 +148,7 @@ The dashboard includes interactive slicers and filters to enable dynamic analysi
 - Customer Segment
 - Region
 
-Users can combine multiple filters to analyze specific business scenarios and identify performance trends at a granular level.
+Users can combine multiple filters to analyze specific business scenarios and evaluate performance at a granular level.
 
 ---
 
@@ -164,7 +168,7 @@ Performed data cleaning and transformation using Power Query, including:
 
 ### Data Modeling
 
-Developed a structured data model to support efficient analysis across:
+Developed a structured data model to support analysis across:
 
 - Sales
 - Products
@@ -186,12 +190,13 @@ Developed DAX measures for key business metrics, including:
 
 ### Dashboard Development
 
-Built an interactive Power BI dashboard using:
+Built interactive Power BI dashboards using:
 
 - KPI Cards
 - Trend Charts
 - Heatmaps
 - Regional Analysis
+- Product Analysis
 - Category Analysis
 - Slicers
 - Drill-down Reporting
@@ -219,32 +224,58 @@ The analysis generated the following key business insights:
 - Higher discount percentages were associated with lower overall profit margins.
 - November and December recorded significant seasonal sales spikes compared with other months.
 - Office Supplies demonstrated relatively stable sales performance throughout the year.
-- Seasonal demand patterns can help businesses improve inventory planning and promotional strategies.
-- Category-level profitability analysis can support better pricing and discounting decisions.
+- Seasonal demand patterns can support better inventory planning and promotional strategies.
+- Category and product-level profitability analysis can support better pricing and discounting decisions.
 
 ---
 
 ## Dashboard Preview
 
-### E-Commerce Sales Trend & Seasonality Dashboard
+### Sales Trends & Seasonality Analysis
 
-![E-Commerce Sales Trend & Seasonality Analysis](Images/E-Commerce_Sales_Dashboard.png)
+[View Sales Trends & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
 
-The dashboard provides a consolidated view of sales, profit, order value, profitability, growth trends, category performance, customer segments, and regional performance.
+![Sales Trends & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
+
+This dashboard focuses on overall sales performance, revenue trends, profitability, and seasonal demand patterns.
+
+---
+
+### Seasonality Analysis
+
+[View Seasonality Analysis](./Seasonality%20Analysis.png)
+
+![Seasonality Analysis](./Seasonality%20Analysis.png)
+
+This analysis evaluates monthly and quarterly sales patterns to identify seasonal demand fluctuations.
+
+---
+
+### Product Analysis
+
+[View Product Analysis](./Product%20Analysis.png)
+
+![Product Analysis](./Product%20Analysis.png)
+
+This dashboard provides product, category, and profitability analysis to identify high-performing and underperforming products.
 
 ---
 
 ## Project Files
 
-### Power BI Dashboard
+### Dataset
 
-[View Power BI Dashboard](./E-Commerce%20Sales%20Trend%20%26%20Seasonality%20Analysis.pbix)
+[Sample - Superstore.csv](./Sample%20-%20Superstore.csv)
 
-The Power BI file contains the data model, Power Query transformations, DAX measures, interactive visualizations, slicers, and dashboard.
+The original transactional dataset used for data cleaning, transformation, modeling, and analysis.
 
-### Dashboard Screenshot
+### Dashboard Screenshots
 
-[E-Commerce Sales Trend & Seasonality Dashboard](./Images/E-Commerce_Sales_Dashboard.png)
+[Sales Trends & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
+
+[Seasonality Analysis](./Seasonality%20Analysis.png)
+
+[Product Analysis](./Product%20Analysis.png)
 
 ---
 
@@ -262,8 +293,8 @@ The Power BI file contains the data model, Power Query transformations, DAX meas
 - Profitability Analysis
 - Trend Analysis
 - Seasonality Analysis
-- Customer Segmentation
 - Product Analysis
+- Customer Segmentation
 - Regional Analysis
 - Root Cause Analysis
 - Data Visualization
@@ -276,4 +307,4 @@ The Power BI file contains the data model, Power Query transformations, DAX meas
 
 Developed an interactive Power BI solution that transforms transactional sales data into actionable business insights.
 
-The dashboard enables stakeholders to monitor sales and profitability, identify seasonal demand patterns, evaluate category and product performance, analyze regional and customer segment trends, and support data-driven decisions related to pricing, promotions, inventory planning, and business growth.
+The dashboard enables stakeholders to monitor sales and profitability, identify seasonal demand patterns, evaluate product and category performance, analyze regional and customer segment trends, and support data-driven decisions related to pricing, promotions, inventory planning, and business growth.
