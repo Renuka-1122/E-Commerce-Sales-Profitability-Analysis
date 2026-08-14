@@ -231,11 +231,11 @@ The analysis generated the following key business insights:
 
 ## Dashboard Preview
 
-### Sales Trends & Seasonality Analysis
+### Sales Trend & Seasonality Analysis
 
-[View Sales Trends & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
+[View Sales Trend & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
 
-![Sales Trends & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
+![Sales Trend & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
 
 This dashboard focuses on overall sales performance, revenue trends, profitability, and seasonal demand patterns.
 
@@ -271,7 +271,7 @@ The original transactional dataset used for data cleaning, transformation, model
 
 ### Dashboard Screenshots
 
-[Sales Trends & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
+[Sales Trend & Seasonality Analysis](./Sales%20Trens%20%26%20Seasonality%20Analysis.png)
 
 [Seasonality Analysis](./Seasonality%20Analysis.png)
 
